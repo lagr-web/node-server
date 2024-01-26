@@ -5,7 +5,7 @@
   "description": "test express",
   "main": "app.js",
   "scripts": {
-    "server": "node ."
+    "server": "nodemon node ."
   },
   "author": "lars",
   "license": "ISC",
