@@ -3,8 +3,8 @@
 import express from "express";
 import { PORT } from "./config.js";
 import routes from './routes.js'
+import mongoose from "./db.js";
 
-//const port = process.env.PORT || 3001;
 
 const app = express();
 
