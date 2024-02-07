@@ -13,4 +13,8 @@ router.get("/test", (request, response) => {
   response.send("Hello, World root!");
 });
 
+router.get("/data", (request, response) => {
+  response.send("Hello, World data!");
+});
+
 export default router;
