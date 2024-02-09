@@ -1,6 +1,7 @@
 node_modules
 dist/bundle.js
 .zip
+.env
 uncompressed/.DS_Store
 .vscode/
 .DS_Store
