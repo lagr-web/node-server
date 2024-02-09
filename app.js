@@ -10,6 +10,8 @@ const app = express();
 
 app.use('/', routes);
 
-app.listen(PORT, () => {
-console.log("Server Listening and is ready on PORT:", PORT);
+const port = process.env.PORT || 3000;
+
+app.listen(ChoosePort, () => {
+console.log("Server Listening and is ready on PORT:", port);
 });

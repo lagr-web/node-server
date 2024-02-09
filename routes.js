@@ -19,6 +19,10 @@ router.get("/data", (request, response) => {
   response.send("Hello, World data!");
 });
 
+router.get("/getOne", (request, response) => {
+  response.send("Hello, Get One!");
+});
+
 router.get("/getAlldata", async (request, response) => {
 
   try {
