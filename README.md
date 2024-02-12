@@ -13,8 +13,6 @@
 
 ## Installation:
 npm i
-
-## run
 npm run server
 
 ## Default Port:
