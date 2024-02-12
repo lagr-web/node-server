@@ -11,11 +11,9 @@
 - Supbase/supbase.js
 
 ## Installation:
-```bash
 npm i
 
 ##run
-```bash
 npm run server
 
 Default Port:
